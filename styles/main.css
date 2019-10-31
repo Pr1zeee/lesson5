@@ -28,7 +28,7 @@ li:last-child {
 li a {
     text-decoration: none;
     color: #ccc;
-    font: 25px/1 Helvetica, Verdena, sans
+    font: 25px/1 Helvetica, Verdana, sans-serif;
     text-transform: uppercase;
     transition: all 0.5s ease;
 }
@@ -38,5 +38,6 @@ li a:hover {
 }
 
 li.active a {
-
+font-weight: bold;
+color: #333
 }
